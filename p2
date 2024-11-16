@@ -1,14 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.
-    0">
-    <title>Revisão da prova</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5</title>
 </head>
 <body>
-    <h1>Revisão da prova</h1>
-    
+    <h1 class="subtitulo"><mark style="background-color: red; color: white;">Prova HTML 5 Turma X</mark></h1>
+
+    <div>
+        <h2><mark style="background-color: blue; color: white;">Formulário</mark></h2>
+        <form>
+            <label>Nome:</label><br>
+            <input type="text" placeholder="Nome completo do Sandra Ribeiro"><br><br>
+
+            <label>Nome da Mãe:</label><br>
+            <input type="text" placeholder="Nome completo da Etelvina Cordeiro"><br><br>
+
+            <label>Telefone:</label><br>
+            <input type="tel" placeholder="(61) 98252-XXXX"><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <div class="indice">
+        <h2><mark style="background-color: blue; color: white;">Índice HTML5</mark></h2>
+        <ol>
+            <li><strong>Capítulo <u>Os melhores</u></strong>
+                <ol type="I">
+                    <li>Seção <sup>I</sup>
+                        <ol type="A">
+                            <li>Subseção Carros
+                                <ol>
+                                    <li>Rolls-Royce (indisponível)</li>
+                                    <li>Bugatti</li>
+                                    <li>Ferrari</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Seção <sup>II</sup>
+                        <ol type="A">
+                            <li>Subseção Motos
+                                <ol>
+                                    <li>Ducati Diavel 1260 S</li>
+                                    <li>BMW K 1600 Bagger</li>
+                                    <li>Harley-Davidson</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                    <li>Seção <sup>III</sup>
+                        <ol type="A">
+                            <li>Subseção Jatinhos
+                                <ol>
+                                    <li>Dassault<sub>2</sub></li>
+                                    <li>Pilatus PC-24</li>
+                                    <li>Challenger 350</li>
+                                </ol>
+                            </li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+            <p>"O sucesso é alcançado com perseverança e dedicação!"</p>
+        </ol>
+        
+        <small>Obs: A lista está ordenada em áreas numéricos e alfabéticos.</small>
+        <p><small><bdo dir="rtl">Nunca Desista!!</bdo></small></p>
+    </div>
 </body>
 </html>
